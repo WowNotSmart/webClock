@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+}
+.container {
+    height: 100%;
+    position: relative;
+  }  
+.clock {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.timer {
+    font-size: 300%;
+}
